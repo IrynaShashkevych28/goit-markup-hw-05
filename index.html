@@ -570,21 +570,28 @@
               </a>
             </li>
           </ul>
-
+          </div>
+          <div class="footer-subscribe-form">
+            <p class="footer-subscribe-form-text">Subscribe</p>
           <form class="footer-form" name="subscribe-form">
             <label class="visually-hidden" for="subscribe-email"
               >User Email</label
             >
 
             <input
-              class="modal-form-input"
+              class="footer-modal-form-input"
               type="email"
               name="subscribe-email"
               id="subscribe-email"
               placeholder="E-mail"
             />
 
-            <button type="submit">Subscribe</button>
+            <button class="footer-form button" type="submit">
+              Subscribe
+              <svg class="footer-subscribe-icon"  width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
