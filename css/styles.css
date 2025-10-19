@@ -491,7 +491,7 @@ address {
   
 }
 .footer-subscribe-form-text{
-padding-bottom: 12px;
+margin-bottom: 16px;
 letter-spacing: 0.02em;
 color: #ffffff;
 font-weight: 500;
@@ -546,7 +546,7 @@ letter-spacing: 0.04em;
 }
 .footer-subscribe-icon{
   fill: currentColor;
-  margin-right: 24px;
+  margin-left: 16px;
 
   
 }
@@ -579,6 +579,7 @@ letter-spacing: 0.04em;
   min-height: 584px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2); 
+  border-radius: 4px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -590,7 +591,7 @@ letter-spacing: 0.04em;
   padding-bottom: 24px;
   padding-right: 24px;
 
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity, transform;
 }
 .backdrop.is-open .modal {
@@ -617,6 +618,7 @@ letter-spacing: 0.04em;
 .modal-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modal-btn-icon{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -638,7 +640,7 @@ letter-spacing: 0.04em;
 }
 
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-label {
   display: block;
@@ -662,6 +664,7 @@ color: #8e8f99;
   padding: 11px 38px;
   font-size: 18px;
   background-color: transparent;
+  outline: transparent; 
 
 }
 .modal-form-input:focus {
@@ -692,6 +695,7 @@ color: #8e8f99;
   color: rgba(46, 47, 66, 0.4); 
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
+  outline: transparent; 
 
 }
 .modal-form-comment:focus {
@@ -711,7 +715,7 @@ color: #8e8f99;
   color: #8e8f99;
 
 }
-.agreemant-checkbox {
+.agreement-checkbox {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -725,13 +729,13 @@ color: #8e8f99;
   transition-property: border-color, background-color, fill;
   margin-right: 8px;
 }
-input[type="checkbox"]:checked + .agreement-wrapper > .agreemant-checkbox {
+
+input[type="checkbox"]:checked + .agreement-wrapper > .agreement-checkbox {
   background-color: #404bbf;
   border-color: #404bbf;
-  fill: #F4F4FD;
   border: none;
 }
-.agreemant-checkbox-icon {
+.agreement-checkbox-icon {
   fill: currentColor;
 }
 .agreement-link-accent-text {
