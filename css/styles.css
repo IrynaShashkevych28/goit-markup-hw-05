@@ -571,6 +571,7 @@ letter-spacing: 0.04em;
 }
 .backdrop.is-open {
   opacity: 1;
+  
   visibility: visible;
   pointer-events: initial;
 }
@@ -596,6 +597,7 @@ letter-spacing: 0.04em;
 }
 .backdrop.is-open .modal {
   opacity: 1;
+  transform: translateX(-50%) translateY(-50%);
 }
 .modal-btn {
   width: 24px;
@@ -733,7 +735,7 @@ color: #8e8f99;
   margin-right: 8px;
 }
 
-input[type="checkbox"]:checked + .agreement-wrapper > .agreement-checkbox {
+input[type="checkbox"]:checked + label > .agreement-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
