@@ -735,7 +735,7 @@ color: #8e8f99;
   margin-right: 8px;
 }
 
-input[type="checkbox"]:checked + label > .agreement-checkbox {
+.checkbox-input:checked + .agreement-wrapper > .agreement-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
